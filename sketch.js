@@ -135,7 +135,7 @@ function draw(){
         if(frameCount % 20 == 0){
             createEnemies()
         }
-        if(frameCount % 500 == 0){
+        if(frameCount % 400 == 0){
             var specBulletEarn = createSprite(random(50,625), random(50,605), 50,50)
             specBulletEarn.addImage(specBulletEarnImg)
             specBulletEarn.scale = 0.15
